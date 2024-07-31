@@ -115,6 +115,7 @@ def upload_pdf():
     f.save("data/" + f.filename)
     pdf_loader = PDFPlumberLoader("data/" + f.filename)
     docs = pdf_loader.load_and_split()
+    # MODIFY HERE to experiment with different chunking strategies
     doc_chunks = text_splitter.split_documents(docs)
 
     db = Chroma.from_documents(
