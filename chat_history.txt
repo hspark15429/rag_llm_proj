@@ -1,0 +1,69 @@
+{
+    "chunking strategy" : "text_splitter_large",
+    "chat_history": [
+        {
+            "latency": 52.00357699394226,
+            "query": "What key learnings and observations were made during the development of Llama 2?",
+            "response": "Based on the provided context, some key learnings and observations made during the development of Llama 2 are:\n\n* Novel observations emerged during the development of Llama 2, such as the emergence of tool usage and temporal organization of knowledge.\n\nThese observations were mentioned in Section 3 of the document. However, it seems that more specific information about these observations is not available within the provided documents.",
+            "timestamp": "2024-08-01T10:09:35.082728"
+        },
+        {
+            "latency": 33.64929699897766,
+            "query": "What are the main architectural differences between Llama 1 and Llama 2?",
+            "response": "Based on the provided context, I do not have information on the main architectural differences between Llama 1 and Llama 2. The text only mentions that Llama 2 is an open foundation and fine-tuned chat model, but it does not provide details on the architectural changes or improvements made compared to Llama 1.\n\nI would suggest looking for additional documentation or research papers related to Llama models to find information on their architectures and differences.",
+            "timestamp": "2024-08-01T10:10:36.715430"
+        },
+        {
+            "latency": 58.72744584083557,
+            "query": "What is llama2?",
+            "response": "Based on the provided documents, Llama 2 appears to be a new technology that carries risks with its use. It's an open foundation and fine-tuned chat model that has been tested in English, but not all scenarios or languages have been covered. The document states that Llama 2's potential outputs cannot be predicted in advance, and the model may produce inaccurate or objectionable responses to user prompts.\n\nLlama 2-Chat is described as a model with scales up to 70 billion parameters. It has been tested on various benchmarks for helpfulness and safety, and generally performs better than existing open-source models. The document also mentions that Llama 2 has taken measures to increase the safety of its models using safety-specific data annotation and tuning, red-teaming, and iterative evaluations.\n\nThe document does not explicitly provide information on what Llama 2 is or what it does. However, based on the context, it appears to be a type of artificial intelligence (AI) model designed for natural language generation tasks, such as chatbots or language assistants.",
+            "timestamp": "2024-08-01T10:11:55.752867"
+        }
+    ]
+},
+{
+    "chunking strategy" : "text_splitter",
+    "chat_history": [
+        {
+            "latency": 48.16271424293518,
+            "query": "What key learnings and observations were made during the development of Llama 2?",
+            "response": "Based on the provided context, some key learnings and observations that were made during the development of Llama 2 include:\n\n1. Temporal organization of knowledge: The tuning process revealed that Llama 2-Chat has the ability to temporally organize its knowledge.\n2. API calls for external tools: The model can also call APIs for external tools, indicating its potential to integrate with other systems and tools.\n\nThese observations were made during the development of Llama 2, but no further information is provided in the given context regarding specific results or details about these learnings.",
+            "timestamp": "2024-08-01T10:00:39.664312"
+        },
+        {
+            "latency": 32.85006904602051,
+            "query": "What are the main architectural differences between Llama 1 and Llama 2?",
+            "response": "Based on the provided context, there is no direct mention of the main architectural differences between Llama 1 and Llama 2. The text primarily focuses on reporting evaluation results for various models, including Llama 1 and Llama 2, as well as discussing safety concerns and the benefits of releasing large language models (LLMs) like Llama 2.\n\nAs such, I don't have information on this document regarding the main architectural differences between Llama 1 and Llama 2.",
+            "timestamp": "2024-08-01T09:59:18.753686"
+        },
+        {
+            "latency": 38.99397683143616,
+            "query": "What is llama2?",
+            "response": "Based on the provided context, I can tell you that Llama2 is a new technology that carries risks with use. It appears to be a large language model (LLM) designed for natural language generation, specifically focused on helpingfulness and safety.\n\nFrom the text, it seems that Llama2 has undergone testing in English, but this testing does not cover all scenarios, nor could it predict its potential outputs in advance. As a result, the model may produce inaccurate or objectionable responses to user prompts in some instances.\n\nThe document also mentions that developers should perform safety testing and tuning tailored to their specific applications of Llama2 before deploying any applications that utilize this technology.\n\nIt's worth noting that Llama2-Chat is mentioned as a specific iteration of the Llama2 model, which has been trained to prioritize helpfulness and safety in its responses.",
+            "timestamp": "2024-08-01T09:54:48.598989"
+        }
+    ]
+},
+{
+    "chunking strategy" : "char_splitter",
+    "chat_history": [
+        {
+            "latency": 243.97921705245972,
+            "query": "What key learnings and observations were made during the development of Llama 2?",
+            "response": "Based on the provided context, I was able to find some key learnings and observations made during the development of Llama 2. However, please note that not all information might be available in the provided documents.\n\nFrom the paper \"Efficiently scaling transformer inference, 2022\" by Jacob Devlin et al., we can infer that:\n\n* The development of Llama 2 focused on efficiently scaling transformer models for large-scale language processing tasks.\n* The authors explored various techniques to improve the performance and efficiency of transformer models, including model pruning, knowledge distillation, and layer-wise attention.\n\nFrom the paper \"Scaling languagemodels: Methods, analysis&insights from training gopher, 2022\" by Jack W. Rae et al., we can observe that:\n\n* The development of Llama 2 involved scaling language models to handle large-scale language processing tasks.\n* The authors analyzed the impact of model size and data quality on performance and explored techniques to improve performance, such as knowledge distillation.\n\nFrom the paper \"Know what you don’t know: Unanswerable questions for squad. arXiv preprint arXiv:1806.03822, 2018\" by Pranav Rajpurkar et al., I don't have information on this document. However, it appears to be a paper focused on unanswerable questions in the Squad dataset, which might be relevant to Llama 2's development.\n\nFrom the paper \"Effect of scale on catastrophic forgetting in neural networks. In International Conference on Learning Representations, 2021\" by Vinay Venkatesh Ramasesh et al., I don't have information on this document. However, it appears to be a paper focused on the effect of scaling on catastrophic forgetting in neural networks, which might be relevant to Llama 2's development.\n\nFrom the paper \"Open-domain conversational agents: Current progress, open problems, and future directions. arXiv preprint arXiv:2006.12442, 2020\" by Stephen Roller et al., we can infer that:\n\n* The development of Llama 2 aimed to improve open-domain conversational agents.\n* The authors discussed the current state-of-the-art in this area, open problems, and future directions for improving these models.\n\nFrom the paper \"Winogrande: An adversarial winograd schema challenge at scale. Communications of the ACM, 64(9):99–106, 2021\" by Keisuke Sakaguchi et al., we can observe that:\n\n* The development of Llama 2 involved creating an adversarial challenge to test its performance on a specific task (Winograd schema).\n* The authors demonstrated the effectiveness of this challenge in evaluating the robustness and accuracy of language models like Llama 2.\n\nFrom the paper \"Socialiqa: Commonsense reasoning about social interactions. arXiv preprint arXiv:1904.09728, 2019\" by Maarten Sap et al., I don't have information on this document. However, it appears to be a paper focused on commonsense reasoning about social interactions, which might be relevant to Llama 2's development.\n\nFrom the paper \"Bloom: A 176b-parameter open-access multilingual language model. arXiv preprint arXiv:2211.05100, 2022\" by Teven Le Scao et al., we can infer that:\n\n* The development of Llama 2 involved creating a large-scale multilingual language model (Bloom) with improved performance and robustness.\n* The authors demonstrated the effectiveness of this model in various tasks and languages.\n\nFrom the paper \"Open-domain conversational agents: Current progress, open problems, and future directions. arXiv preprint arXiv:2006.12442, 2020\" by Stephen Roller et al., we can observe that:\n\n* The development of Llama 2 aimed to improve open-domain conversational agents.\n* The authors discussed the current state-of-the-art in this area, open problems, and future directions for improving these models.\n\nOverall, based on the provided context, it appears that the development of Llama 2 focused on efficiently scaling transformer models, creating large-scale multilingual language models, and exploring techniques to improve performance and robustness.",
+            "timestamp": "2024-08-01T10:27:20.205433"
+        },
+        {
+            "latency": 50.16092610359192,
+            "query": "What are the main architectural differences between Llama 1 and Llama 2?",
+            "response": "Based on the provided context, I can help you answer what are the main architectural differences between Llama 1 and Llama 2.\n\nAccording to Table17: Context length ablation on general tasks, it is mentioned that Llama 2 was pre-trained with a context length of 18.52 tokens, whereas Llama 1 was pre-trained with a context length of 2048 tokens (Table not provided). This suggests that one main architectural difference between the two models is the length of their pre-training contexts.\n\nAdditionally, it is mentioned in the text that Llama 2-Chat (with GAtt) maintains 100% accuracy up to 20 turns, whereas Llama 2-Chat without GAtt can no longer refer to attributes after only a few turns. This implies that GAtt is an architectural component unique to Llama 2-Chat, which enables it to maintain multi-turn memory and context.\n\nI don't have information on this document regarding other potential architectural differences between Llama 1 and Llama 2.",
+            "timestamp": "2024-08-01T10:22:53.590502"
+        },
+        {
+            "latency": 76.91205906867981,
+            "query": "What is llama2?",
+            "response": "Based on the provided context, Llama 2 appears to be a chatbot or language model that has been trained using Generative Attention (GAtt) technology. According to Table 30, GAtt enables Llama 2-Chat to refer to attributes 100% of the time, for up to 20 turns from our human evaluation.\n\nLlama 2 seems to be capable of maintaining 100% accuracy in referring to defined attributes across multiple turns, whereas without GAtt, it can only do so for a few turns. This suggests that Llama 2 is able to understand and refer to attributes even when the context extends beyond 2048 tokens (its original training context length).\n\nAdditionally, Figure 27 shows that incorporating preference-based margin in ranking loss causes a binary split pattern in reward distribution, especially with a large margin. This indicates that Llama 2's reward model is well-calibrated with human preference and can be used as a point-wise metric.\n\nUnfortunately, there is no explicit information provided on what Llama 2 actually does or what its capabilities are beyond this context.",
+            "timestamp": "2024-08-01T10:21:36.523364"
+        },
+    ]
+}

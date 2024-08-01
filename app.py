@@ -47,13 +47,13 @@ text_splitter_small = RecursiveCharacterTextSplitter(
 # Character-based splitter
 char_splitter = CharacterTextSplitter(
     separator="\n\n",
-    chunk_size=1000,
+    chunk_size=1024,
     chunk_overlap=200,
     length_function=len,
 )
 
 # Token-based splitter
-token_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=50)
+token_splitter = TokenTextSplitter(chunk_size=512, chunk_overlap=50)
 
 
 template = """
@@ -96,7 +96,7 @@ def chat():
 
         store_response(query, res["answer"], latency)
 
-        return jsonify({"response": res["answer"], "latency": latency})
+        return jsonify({"query": query, "response": res["answer"], "latency": latency})
     except Exception as e:
         print(f"Error processing query: {str(e)}")
         return jsonify({"error": str(e)}), 500
