@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 init_db()
 
-llm = Ollama(model="tinyllama")
+llm = Ollama(model="llama3")
 
 persist_directory = "db"
 

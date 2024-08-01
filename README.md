@@ -12,7 +12,7 @@ This application is an AI-powered document question-answering system that uses n
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.12+
 - Flask
 - LangChain
 - ChromaDB
@@ -22,10 +22,15 @@ This application is an AI-powered document question-answering system that uses n
 - SQLite3
 
 ## Installation
-
+1. Download and run Ollama: [https://ollama.com/download](https://ollama.com/download)
+2. Pull llama3 model from the terminal
+```
+ollama pull llama3
 1. Clone this repository
 2. Install the required packages:
+```
 pip install -r requirements.txt
+```
 
 ## Usage
 
