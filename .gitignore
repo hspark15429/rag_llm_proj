@@ -1,5 +1,3 @@
 venv/
-db/*
 __pycache__/
-chat_history_db/*
 .DS_Store

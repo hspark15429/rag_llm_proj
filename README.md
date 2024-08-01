@@ -27,8 +27,8 @@ This application is an AI-powered document question-answering system that uses n
 ```
 ollama pull llama3
 ```
-1. Clone this repository
-2. Install the required packages:
+3. Clone this repository
+4. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
@@ -55,6 +55,6 @@ python app.py
 
 ## Configuration
 
-- The application uses the "tinyllama" model from Ollama. Ensure Ollama is installed and the model is available.
+- The application uses the "llama3" model from Ollama. Ensure Ollama is installed and the model is available.
 - The vector store and database files are stored in the `db` directory.
 - Various text splitting strategies are available. Modify the `text_splitter` variable in `app.py`'s upload_pdf() to experiment with different chunking methods.
