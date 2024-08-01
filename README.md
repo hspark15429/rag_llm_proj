@@ -26,6 +26,7 @@ This application is an AI-powered document question-answering system that uses n
 2. Pull llama3 model from the terminal
 ```
 ollama pull llama3
+```
 1. Clone this repository
 2. Install the required packages:
 ```
